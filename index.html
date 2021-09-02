@@ -24,31 +24,25 @@
             </select>
             
             <div class="aparece-e-some">
-                
-                <div class="select-cript-descript">
-                    <label for="">Criptografar</label>
-                    <input type="radio" name="marcou" id="crip-marcado" value="crip-marcado">    
-                    <label for="">Descriptografar</label>
-                    <input type="radio" name="marcou" id="" value="descrip-marcado">    
-                </div>
-
                 <div class="card-msg">
-                    <label for="numero-cesar">Numero de Deslocamento</label>
-                    <input id="numero-cesar" type="number">
+                    <div class="aparece-cesar">
+                        <label for="numero-cesar">Numero de Deslocamento</label>
+                        <input id="numero-cesar" type="number">
+                    </div>
+                    
                     <label for="">Escreva a Mensagem</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea type="text" name="" id="mensagem" cols="30" rows="10"></textarea>
 
                     <div class="botoes">
-                        <button onclick="teste()" id="btn-crip">Codificar</button>
-                        <button id="btn-descrip">Codificar</button>
+                        <button id="btn-crip">Codificar</button>
                     </div>
 
-                    <label for="">Mensagem codificada</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                
+                    <div class="msg-codificada">
+                        <label for="">Mensagem codificada</label>
+                        <textarea name="" id="resultado-msg" cols="30" rows="10"></textarea>
+                    </div>
+                </div>               
             </div>
-
         </section>
     </main>
 </body>

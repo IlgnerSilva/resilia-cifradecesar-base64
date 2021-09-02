@@ -8,6 +8,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Hacked';
+    color: #20C20E;
+    background-color: black;
 }
 
 .header{
@@ -20,11 +22,11 @@
     width: 50%;
     min-width: 280px;
     margin: 0 auto;
-    border: 1px solid black;
+
 }
 
 .section{
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     text-align: center;
 }
@@ -52,4 +54,7 @@
 
 button{
     display: inline-block;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: solid #20C20E 2px;
 }
