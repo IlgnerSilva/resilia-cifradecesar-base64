@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Hacked';
+    src: url(./Assets/hacked-font/Hacked-KerX.ttf) format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hacked';
+}
+
+.header{
+    text-align: center;
+    padding: 2% 0;
+    
+}
+
+.main{
+    width: 50%;
+    min-width: 280px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.section{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.card-msg{
+    text-align: center;
+}
+
+.card-msg label{
+    display: block;
+    margin-top: 20px;
+}
+
+.card-msg textarea{
+    width: 250px;
+    resize: none;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+button{
+    display: inline-block;
+}

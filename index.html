@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./js/main.js"></script>
+    <script defer src="./js/cesar.js"></script>
+    <script defer src="./js/base64.js"></script>
+    <title>Cifra de Cesar/Base64</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Cifra de Cesar / Base64</h1>
+    </header>
+    <main class="main">
+        <section class="section">
+            <h2>Selecione a criptografia</h2>
+            <select class="select">
+                <option>Escolha a criptografia</option>
+                <option value="cifra-de-cesar">Cifra de Cesar</option>
+                <option value="base64">Base64</option>
+            </select>
+            
+            <div class="aparece-e-some">
+                
+                <div class="select-cript-descript">
+                    <label for="">Criptografar</label>
+                    <input type="radio" name="marcou" id="crip-marcado" value="crip-marcado">    
+                    <label for="">Descriptografar</label>
+                    <input type="radio" name="marcou" id="" value="descrip-marcado">    
+                </div>
+
+                <div class="card-msg">
+                    <label for="numero-cesar">Numero de Deslocamento</label>
+                    <input id="numero-cesar" type="number">
+                    <label for="">Escreva a Mensagem</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                    <div class="botoes">
+                        <button onclick="teste()" id="btn-crip">Codificar</button>
+                        <button id="btn-descrip">Codificar</button>
+                    </div>
+
+                    <label for="">Mensagem codificada</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
